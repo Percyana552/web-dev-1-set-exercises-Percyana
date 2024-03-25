@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+}
+img{
+    filter: grayscale(100%);/*Apply a graycale filter to all images*/
+    width: 400px;/*set the for all image*/
+    height: auto;/*add some retain the aspect ratio of the images*/
+    margin: 10px;/*add some margin around the images*/
+}

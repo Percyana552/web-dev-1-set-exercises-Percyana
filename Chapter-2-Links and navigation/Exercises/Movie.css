@@ -1,0 +1,60 @@
+/*set the font for the for entire body of the html document*/
+body{
+    font-family: Arial, Helvetica, sans-serif;/* use  Arial , helvetica, or a sans-serif for a text*/
+    line-height: 1.5;/*set thenheight to 1.5 for better readility*/
+    margin: 0px;/*remove any margin from the body element*/
+    padding: opx;/*Remove any padding from the body element*/
+}
+/*style the navigation bar inheader*/
+header nav li{
+    display: flex;/* use flexbox for display the navigation items in a row*/
+   /*remove any margin and padding from the navigation items*/
+    margin: 0px; 
+    padding: 0px;
+}
+/*style theindividual navigation items*/
+header nav ul li{
+    /* Display the items inline with each other*/
+    display: inline-block;
+    /*Add some horizontal spacing between the items*/
+    margin: 0 1rem;
+}
+/*add padding to the main content area*/
+main{
+    padding: 2rem;
+}
+/*add a border to tables,tables headers, and table cells*/
+table, th, td{
+    border:2px solid gray;
+}
+/* set the color, font-size , and margin-bottom to all elements*/
+h1,h2,h3,h4,h5{
+    color:aqua;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+/*Remove bullet points and padding from unordered lists*/
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+/*style the buttom class*/
+
+.buttom{
+    /*set the background color to a dark gray*/
+    background-color: #333;
+    /*remove any borders*/
+    border: none;
+    /*set the text color to white*/
+    color:#fff;
+    /*add some padding to button*/
+    padding: 0.5rem 1rem;
+    /*remove text-decoration  from the buttom*/
+    text-decoration: none;
+    /*add some spacing below the button*/
+    margin-top: 1rem;
+}
+/*change the background color of the  button class when hovered*/
+.buttom:hover{
+background-color: #444;
+}

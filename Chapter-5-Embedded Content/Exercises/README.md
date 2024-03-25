@@ -11,7 +11,8 @@ For each exercise you should create a new folder with the name of the exercise a
 Embed a locally hosted video of your choice into a html document. The video must:
 
 * Loop;
-* Display a relevant poster image;
+* Display a relevant poster image;   
+
 * Be centred on the page horizontally and vertically.
 
 <hr>

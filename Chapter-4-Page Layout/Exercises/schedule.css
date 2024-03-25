@@ -1,0 +1,112 @@
+/* Add css style in  the general body*/
+body{
+    font-family: Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+/*style the header*/
+header{
+    background-color: #172d67;
+    padding: 20px;
+}
+/*the header h1 selector targets the h1 element within the header section.*/
+
+header h1{
+    /*The color property sets teh text color of the h1 elements to white*/
+    color: #ffffff;
+    margin: 0; /*The margin property sets the margin area of the h1 element to 0, removes any margin.*/
+  /*The padding property sets the padding area of the h1 to 0 , removes any padding*/
+    padding: 0;
+
+}
+/*Styiling the header image*/
+header img{
+    /*The height of the header img is set to 200pixels.*/
+    height: 200px;
+    /* The margin is set on the right*/
+    margin-right: 20px;
+}
+/*The nav ul element is styled to have dark blue background color, no list stype, no margin or padding.The display property is set to flex to allow for easy  alignment and distribution of the list items.*/
+/*style the navigation bar*/
+nav ul{
+    background-color: #172d67;
+    list-style:  none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/*The folowing Css rule targets all list items(li) within unordered list within the navigation element.*/
+nav ul li{
+    /*Add a padding of 10pixels to the top,right,bottom, and left each list item.*/
+    padding: 10px;
+}
+/*The following Css rule targets all anchor tags within an unordered list within a navigation element.*/
+nav ul li a {
+    /*The color property sets the text color of the anchor tag  to white*/
+    color: #ffffff;
+    /*The text-decoration property sets text formatting to none , remove any underline or other text decoration.*/
+    text-decoration: none;
+}
+/*The main container is style in grid layout, it has three equal columns, each is represented by the 'fr' */
+main{
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    grid-gap: 20px;/*This sets the gap between grid cells to 20px*/
+    padding: 20px;/*This adds a 20-pixel padding around  the entire grind.*/
+}
+/*the main section is style with a light grey background color, 20px padding, centered text alignment*/
+main section{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+/*The main section h2 element is style here. the font size is set to 24px, and the margin below the element is set to 10px*/
+main section h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/*set the font size within the paragraph*/
+main section p{
+    font-size: 16px;
+    /*add margin of 20px to the bottom of the paragraphs*/
+    margin-bottom: 20px;
+}
+/* style button within the 'main' section of a webpage*/
+main section button{
+    background-color: #172d67;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+/*style the table*/
+main table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+/*style the table elements*/
+main th, main td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/*set the header for table*/
+main th{
+    background-color:gray;
+}
+/*defines the footer style, set background color, padding,text-align, color and position*/
+footer{
+    background-color: #172d67;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    /*set the footer at the bottom of the viewport*/
+    bottom: 0;
+}

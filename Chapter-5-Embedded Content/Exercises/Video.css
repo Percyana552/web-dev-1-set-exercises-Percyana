@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100vh;
+    margin: 0;
+    background-color: blue;
+    color:gray;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    outline: none;
+    border: radius 10px; 
+}
+video::cue{
+    display: none;
+}

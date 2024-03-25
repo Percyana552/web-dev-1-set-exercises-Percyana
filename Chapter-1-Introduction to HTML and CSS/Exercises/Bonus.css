@@ -1,0 +1,60 @@
+/*General styles*/
+body{
+    color:green;
+    background-image: url("Photo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+    
+}
+h1,h2,h3{
+    
+  
+    color: orangered;
+    text-shadow: 2px 2px 8px black;
+    font-weight: normal;
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+}
+.p1,.p2,.p3{
+    font-size: 1.2rem;
+    margin-bottom:20px ;
+    text-align: center;
+}
+.p2,.p3{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+ul,ol{
+    padding-left: 20px;
+}
+/*code styles*/
+code{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    background-color: gray;
+}
+pre{
+    display: block;
+    padding: 10px;
+    background-color: beige;
+    margin-bottom: 20px;
+    white-space:pre-wrap;
+    border:1px solid;
+    box-sizing: border-box;
+    font-family: monospace;
+    overflow: auto;
+}

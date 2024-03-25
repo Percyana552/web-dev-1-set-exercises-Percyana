@@ -1,0 +1,64 @@
+/* define the font for entire document*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*define header style*/
+header{
+    background-color: #333;
+    padding: 20px;
+}
+/*define header titles stye*/
+header h1{
+    color: white;
+    margin: 0px;
+
+}
+/*define  the navegation style*/
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+/*define the navigation list item style*/
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+/* define unorder, ist, and link style*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+/*define the main content style*/
+main{padding: 20px;}
+/*define content heading style*/
+main h2{
+    margin-bottom: 20px;
+}
+/*define content paragraph style */
+main p{
+     margin-bottom: 20px;
+}
+/*define content table, table row, table t heading , table data cell*/
+table,tr, th,td{
+    border: 2px solid black;
+}
+th,td{
+    padding: 10px;/* add padding to table cells*/
+}
+th{
+    background-color:gray; /*adds a light white background*/
+}
+/*styles for Buttonx*/
+button{
+    background-color: #333;/*sets the background color*/
+    color:white;/*sets the text color of the button*/
+    padding: 15px 32px; /*sets the butten of the button*/
+    text-align: center;/*centers the text*/
+    text-decoration: none;/*removes any text decoration from the button*/
+    display:inline-block; /*makes the button an inline block element*/
+    font-size: 16px;/*sets the margin around the button*/
+    cursor: pointer; /*Adds a pointer cursor when hovering over the button*/
+    border: none;/*removes any borderfrom the button*/
+}

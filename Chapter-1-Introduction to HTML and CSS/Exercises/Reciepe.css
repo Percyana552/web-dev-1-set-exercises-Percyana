@@ -1,0 +1,11 @@
+body{
+    background-image: url(Images/purple\ cake.jpg),
+    url(Images/pink\ light.jpg),
+    url(Images/green.jpg),
+    url(Images/white.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: opx;
+}
+
